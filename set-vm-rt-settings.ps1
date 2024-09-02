@@ -18,8 +18,8 @@ if (-not $vmName) {
 
 $vmxSettings = @{
     "virtualHW.version" = "21"
-    "ethernet1.realtime" = "TRUE"
-    "vmxnet3.rev.90" = "TRUE"
+#    "ethernet1.realtime" = "TRUE"
+#    "vmxnet3.rev.90" = "TRUE"
 #    "sched.mem.pin" = "TRUE"
 #    "sched.mem.prealloc" = "TRUE"
 #    "sched.mem.pinnedMainMem" = "TRUE"
